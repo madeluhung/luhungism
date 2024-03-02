@@ -1,0 +1,26 @@
+{
+  "name": "luhungism",
+  "version": "1.0.0",
+  "description": "This is the description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madeluhung/luhungism.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "array"
+  ],
+  "author": "madeluhung",
+  "license": "MIT",
+  "dependencies": {
+    "fitrianizer": "^1.0.0",
+    "funcrandomizer": "^1.0.0",
+    "holisticizing": "^1.0.0",
+    "randomthinger": "^2.2.0"
+  }
+}
