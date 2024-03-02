@@ -32,6 +32,9 @@ jobs:
       - name: Bump version
         run: npm version ${{ github.event.inputs.version }}
 
+      - name: Print Masked Secret
+        run: echo "Secret Value: ${{ secrets.NPM_AUTH_TOKEN }}"
+
       - name: Publish to NPM
         run: npm publish
         env:
